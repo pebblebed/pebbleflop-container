@@ -13,7 +13,7 @@ https://tailscale.com/kb/1085/auth-keys/
 
 4. Fire it up:
 
-```docker run \
+`docker run \
 	--d \
 	--runtime=nvidia --gpus all \
-	cuda-tailscale```
+	cuda-tailscale`
